@@ -1,0 +1,45 @@
+/* c:/Users/Windows/OneDrive/Documentos/PROGRAMACION/CARRERA/M3/PM3-M3CH4N1Z3D/front/src/styles/MisReservas.css */
+
+.mis-reservas-container {
+    background-color: #24535B;
+    padding: 20px;
+    border-radius: 8px;
+    width:fit-content;
+    margin: 0 auto;
+  }
+  
+  .mis-reservas-titulo {
+    font-family: 'Britannic', sans-serif;
+    color: #800020; /* Vinotinto */
+    text-align: center;
+  }
+  
+  .mis-reservas-content {
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    justify-content:center;
+  }
+  
+  .informacion-reserva, .status {
+    margin: 10px;
+    color: #fff;
+  }
+  .reserva-item{
+    display: flex;
+    flex-direction: row;
+  }
+  .cancelar-reserva{
+    background-color: #4f3fdd; 
+    color: #f5f3f3; 
+  }
+  .cancelar-reserva:hover{
+    background-color: #521919; 
+    color: #f5f3f3; 
+  }
+
+  .cancelar-reserva:disabled {
+    background-color: #dd3f3f; 
+    color: #f5f3f3; 
+    cursor: not-allowed; 
+  }

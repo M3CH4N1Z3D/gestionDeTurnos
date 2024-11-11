@@ -1,0 +1,23 @@
+.redes-sociales-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .redes-sociales-titulo {
+    font-family: 'Britannic', sans-serif;
+    color: #800020; /* Vino tinto */
+    margin-bottom: 20px;
+  }
+  
+  .redes-sociales-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+  }
+  
+  .social-logo {
+    width: 20px;
+    height: 20px;
+  }
+  

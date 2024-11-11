@@ -1,0 +1,16 @@
+.contact-link {
+  margin: 20px;
+    background-color: #24535B; /* Color de fondo */
+    color: beige; /* Color de las letras */
+    font-family: 'Britannic', sans-serif; /* Estilo de fuente */
+    padding: 10px 20px; /* Espaciado interno */
+    border: 2px solid; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, color 0.3s; /* Transición para efectos de hover */
+  }
+  
+  .contact-link:hover {
+    background-color: beige; /* Cambia el color de fondo al pasar el mouse */
+    color: #24535B; /* Cambia el color del texto al pasar el mouse */
+  }

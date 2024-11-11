@@ -1,0 +1,22 @@
+.sign-in-button {
+    background-color: #24535B; /* Verde oscuro */
+    color: beige;
+    font-family: 'Britannic', sans-serif;
+    padding: 10px 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 15vh;
+    width: 20vw;
+    border-radius: 20pt;
+  }
+  
+  .sign-in-button:hover {
+    background-color: beige;
+    color: #24535B;
+    border-color: #24535B;
+  }
+  
+  

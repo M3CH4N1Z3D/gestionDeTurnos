@@ -1,0 +1,30 @@
+/* src/styles/MensajeExito.css */
+.mensaje-exito-container {
+    background-color: #87CEEB; /* Azul cielo */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+  }
+  
+  .mensaje-exito-texto {
+    font-family: 'Britannic', sans-serif;
+    color: #24535B;
+    margin-bottom: 10px;
+  }
+  
+  .boton-aceptar {
+    background-color: #24535B; /* Verde oscuro */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .boton-aceptar:hover {
+    background-color: beige;
+    color: #24535B;
+  }

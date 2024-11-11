@@ -1,0 +1,139 @@
+.registro-container {
+    background-color: #24535B;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .registro-titulo {
+    font-family: 'Britannic', sans-serif;
+    color: #800020; /* Vinotinto */
+    text-align: center;
+  }
+  
+  .registro-subtitulo {
+    font-size: 0.8rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .registro-formulario {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registro-formulario label {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .registro-formulario input,
+  .registro-formulario select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .boton-confirmar {
+    background-color: #800020; /* Azul cielo */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .boton-confirmar:hover{
+    background-color: #21d65a;
+    color: #800020;
+  }
+  .boton-confirmar:disabled{
+    cursor: not-allowed;
+    background-color: #ccc;
+    color: #800020;
+
+  }
+  
+  .boton-limpiar {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .boton-limpiar:hover{
+    background-color: #2a21d6;
+  }
+  .registro-formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .registro-formulario label{
+    margin-top: 10px;
+    text-align: left;
+  }
+  .registro-formulario .form-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .registro-formulario input,
+  .registro-formulario select{
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    text-align: right;
+  }
+  .registro-formulario input:focus,
+  .registro-formulario select:focus{
+    outline: none;
+    border: 1px solid #24535B;
+    background-color: rgb(126, 71, 71);
+  }
+  .modal {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    position:absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: fit-content;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    border-radius: 8px;
+  }
+  .registro-container{
+    width: fit-content;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

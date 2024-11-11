@@ -1,0 +1,62 @@
+.reserva-container {
+    background-color: #24535B;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .reserva-titulo {
+    font-family: 'Britannic', sans-serif;
+    color: #800020; /* Vinotinto */
+    text-align: center;
+  }
+  
+  .reserva-formulario {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .reserva-formulario label {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .reserva-formulario input {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .boton-reservar {
+    background-color: #470404;
+  color: beige;
+    padding: 10px;
+    border: 2px solid;
+    border-color: #470404;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+.boton-reservar:hover{
+  background-color: #24535B;
+  color: #470404;
+  cursor: pointer;
+  border-color: #470404;
+  border: 2px solid;
+}
+  .boton-reservar:disabled {
+    background-color: #adadad;
+    color: #470404;
+    cursor: not-allowed; 
+}
+  
+  .boton-limpiar {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }

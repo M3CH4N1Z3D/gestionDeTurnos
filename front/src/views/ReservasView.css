@@ -1,0 +1,33 @@
+.inicio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    background-color: beige;
+    width: 90%;
+  }
+  
+  .left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    
+  }
+  
+  .left-column > *, .right-column > * {
+    margin-bottom: 30px;
+  }
+  
+  .left-column > *:last-child, .right-column > *:last-child {
+    margin-bottom: 0;
+  }
+  
+  .cabezote, .navbar, .footer {
+    width: 100%;
+  }

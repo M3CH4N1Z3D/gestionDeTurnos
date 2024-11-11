@@ -1,0 +1,62 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Color de fondo opcional */
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .login-titulo {
+    font-family: 'Britannic', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .login-formulario {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-formulario label {
+    margin-bottom: 10px;
+    font-family: 'Britannic', sans-serif;
+  }
+  
+  .login-formulario input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-family: 'Britannic', sans-serif;
+  }
+  
+  .boton-iniciar-sesion, .boton-cancelar {
+    font-family: 'Britannic', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .boton-iniciar-sesion {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+  }
+
+  .boton-iniciar-sesion:disabled{
+    background-color: #ccc;
+    color: black;
+    cursor:not-allowed;
+  }
+  
+  .boton-cancelar {
+    background-color: #f44336; /* Rojo */
+    color: white;
+  }

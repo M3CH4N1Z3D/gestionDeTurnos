@@ -1,0 +1,57 @@
+.cabezote {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 8rem;
+    background-color: #24535b; 
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-top-left-radius: 20pt;
+    border-top-right-radius: 20pt;
+  }
+  
+  .logo {
+ display: flex;
+    width: 118px; 
+    height: 119px;
+    background-color: #24535b;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+  }
+  .restaurant-name {
+    flex-grow: 1;
+    text-align: center;
+    font-family: 'Britannic', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #800020;
+  }
+  .info-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    color: beige;
+  }
+  
+  .user-name {
+    font-size: 0.9rem;
+  }
+
+  .close-sesion{
+    text-decoration: underline;
+    cursor: pointer;  
+  }
+  .close-sesion:hover{
+    color: blue;
+  }
+  .logo-imagen{
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
